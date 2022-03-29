@@ -11,7 +11,7 @@ orthancSource=$orthancVersion"Source"
 apt install -y build-essential unzip cmake mercurial patch uuid-dev libcurl4-openssl-dev liblua5.3-dev libgtest-dev libpng-dev libsqlite3-dev libssl-dev libjpeg-dev zlib1g-dev libdcmtk-dev libboost-all-dev libwrap0-dev libcharls-dev libjsoncpp-dev libpugixml-dev locales
 
 cd /opt/Orthanc/
-wget -O $orthancVersion.tar.gz https://www.orthanc-server.com/downloads/get.php?path=/orthanc/$OrthancVersion.tar.gz
+wget -O $orthancVersion.tar.gz https://www.orthanc-server.com/downloads/get.php?path=/orthanc/$orthancVersion.tar.gz
 tar zxvf $orthancVersion.tar.gz
 rm $orthancVersion.tar.gz
 mv $orthancVersion $orthancSource
