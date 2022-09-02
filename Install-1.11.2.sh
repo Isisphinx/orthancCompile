@@ -76,7 +76,7 @@ cat <<EOF > /opt/Orthanc/$orthancVersion/configuration.json
   }
   ,"Plugins" : [
     "/opt/Orthanc/OrthancPostgreSQL-4.0/libOrthancPostgreSQLIndex.so"
-    ,"/opt/Orthanc/OrthancTransfers-1.0/libOrthancTransfers.so"
+    ,"/opt/Orthanc/OrthancTransfers-1.2/libOrthancTransfers.so"
   ]
 }
 EOF
