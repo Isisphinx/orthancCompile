@@ -5,6 +5,7 @@ transfersVersion="OrthancTransfers-1.2"
 
 mkdir /opt/Orthanc
 apt update
+apt upgrade
 
 #Orthanc
 orthancSource=$orthancVersion"Source"
